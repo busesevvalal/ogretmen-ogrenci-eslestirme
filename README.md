@@ -1,12 +1,15 @@
 Amaç / Purpose:
 Öğrencileri branş + seviye + bütçe kriterlerine göre en uygun öğretmenlerle eşleştiren, Python & Streamlit ile geliştirilmiş basit bir web uygulaması.
 
-🇹🇷 Türkçe
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🎯 Amaç
 
 Öğrencilerin hedef branş (Türkçe, Matematik, İngilizce, Fen), seviye (İlkokul / Ortaokul) ve bütçe bilgilerine göre uygun öğretmenleri bulmak.
 
 Uygun öğretmenler arasından puanı (rating) en yüksek olanı “en iyi öneri” olarak sunmak.
+
+----------------------------------------------------------------------------------------
 
 ✨ Özellikler
 
@@ -19,6 +22,8 @@ Uygun öğretmenler arasından puanı (rating) en yüksek olanı “en iyi öner
 📥 Sonuçları CSV olarak indirebilme (opsiyonel)
 
 🔧 Teknoloji
+
+---------------------------------------------
 
 Python, Pandas, Streamlit
 
@@ -49,61 +54,7 @@ HourlyRate ≤ Budget
 
 -----------------------------------------------
 
-🇬🇧 English
-🎯 Goal
 
-Match students with teachers using subject + level + budget.
-
-Among all valid teachers, show the highest-rated as the “best suggestion”.
-
-✨ Features
-
-👩‍🎓 Single-student instant recommendation
-
-📊 Bulk matching for all students
-
-⭐ Best teacher by rating
-
-📥 Export results to CSV (optional)
-
-🔧 Stack
-
-Python, Pandas, Streamlit
-
-▶️ Quick Start (Local)
-pip install -r requirements.txt
-streamlit run app.py
-
-📁 Data Schema (sample)
-
-teachers.csv
-
-TeacherID	Branch	Level	HourlyRate	Location	Rating
-T001	Turkish	Primary	180	Istanbul	4.8
-
-students.csv
-
-StudentID	TargetBranch	TargetLevel	Budget
-S001	Turkish	Primary	200
-🧠 Matching Rules
-
-Branch must match
-
-Level must match
-
-HourlyRate ≤ Budget
-
-“Best suggestion”: highest Rating
-
-💡 Yol Haritası / Roadmap
-
-Öğretmen uygunluk/rezervasyon durumu
-
-Tercih edilen gün/saat filtreleri
-
-Gelişmiş sıralama (deneyim, konum, vs.)
-
-📄 Lisans / License
 
 Bu proje eğitim amaçlı bir demodur. 
 
