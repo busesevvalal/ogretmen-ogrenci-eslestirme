@@ -105,8 +105,8 @@ Gelişmiş sıralama (deneyim, konum, vs.)
 
 📄 Lisans / License
 
-Bu proje eğitim amaçlı bir demodur. (İhtiyacına göre lisans metni ekleyebilirsin.)
+Bu proje eğitim amaçlı bir demodur. 
 
 🔗 Canlı Uygulama / Live App
 
-(Streamlit adresini buraya ekleyebilirsin)
+https://ogretmen-ogrenci-eslestirme-msx2qsappdkawbh9qwwcmz4.streamlit.app/
